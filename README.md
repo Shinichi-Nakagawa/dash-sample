@@ -2,9 +2,31 @@
 
 [実践Dash - 手を抜きながら本気で作るデータApplicationの基本と応用](https://speakerdeck.com/shinyorke/dash-for-python-and-baseball)のスライド内に登場したサンプルとちょっとした補足.
 
-## Material
+## Setting
 
-<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/b5769301563b4a888709277f5476099d" title="実践Dash - 手を抜きながら本気で作るデータApplicationの基本と応用 / Dash for Python and Baseball" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+### lib install
+
+#### pip
+
+```bash
+pip install -r requirements.txt
+```
+
+#### poetry
+
+```bash
+poetry install
+```
+
+### Data
+
+[Sean Lahman Baseball DataのBatting.csv](https://www.dropbox.com/scl/fi/hy0sxw6gaai7ghemrshi8/lahman_1871-2023_csv.7z?e=1&file_subpath=%2Flahman_1871-2023_csv&rlkey=edw1u63zzxg48gvpcmr3qpnhz&st=fafzoub1&dl=0)を使います.
+
+上記Dropboxからアーカイブをダウンロードして`Batting.csv`を入手し利用してください.
+
+## sample code
+
+
 
 ## License
 
