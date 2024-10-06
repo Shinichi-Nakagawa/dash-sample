@@ -7,6 +7,9 @@ df = pd.read_csv('Batting.csv')
 
 # applicationの base object
 app = Dash()
+server = app.server
+
+# Basic認証
 auth = BasicAuth(app, {'basic_auth_user':'basic_auth_password'})
 
 # HTMLタグおよび組み込みのコンポーネントでページを作る

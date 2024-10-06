@@ -1,6 +1,4 @@
-from dash import html, dcc, callback, register_page, Output, Input
-import plotly.express as px
-import pandas as pd
+from dash import html, register_page
 
 register_page(__name__, path='/')
 

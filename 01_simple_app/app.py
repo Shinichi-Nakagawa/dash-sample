@@ -6,7 +6,7 @@ df = pd.read_csv('Batting.csv')
 
 # applicationの base object
 app = Dash()
-
+server = app.server
 
 # HTMLタグおよび組み込みのコンポーネントでページを作る
 app.layout = [

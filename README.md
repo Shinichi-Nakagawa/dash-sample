@@ -24,9 +24,43 @@ poetry install
 
 上記Dropboxからアーカイブをダウンロードして`Batting.csv`を入手し利用してください.
 
+### 実行
+
+すべてのアプリケーションは`Batting.csv`を配置（`app.py`と同じ階層にあること）してディレクトリを移動後, 以下のコマンドを実行.
+
+```bash
+python app.py
+```
+
+Debugモードなので, `http://127.0.0.1:8050/` を開くと表示.
+
+また, gunicornでの起動も可能.
+
+```bash
+gunicorn app:server
+```
+
+`http://127.0.0.1:8000/` を開くと表示（Portが異なるので注意）.
+
 ## sample code
 
+### Hello world
 
+最もシンプルなページ
+
+[/01_simple_app/](./01_simple_app/)
+
+### 認証認可
+
+Basic Authによるシンプルな認証
+
+[/02_auth/](./02_auth/)
+
+### マルチページ
+
+複数ページでのアプリケーション
+
+[/03_multipage/](./03_multipage/)
 
 ## License
 
